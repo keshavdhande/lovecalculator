@@ -24,7 +24,7 @@ export default function Love(props) {
         const rand = Math.round(min + Math.random() * (max - min));
         
         setrandomm(Math.round(rand))
-        
+
       var result =crush +" Loves "+ name +" "+ rand +" %";
      
         setresult(result)
@@ -34,14 +34,14 @@ export default function Love(props) {
     return(
 <div>
  
-<img src={image} height={300} width={300} />
+<img src={image} height={200} width={200} />
 <h1 id="heading">love Calculator...</h1>
 
 <label htmlFor=""> <b>Your Name</b></label>
       
       <input  type="text" className="m-3 box"  placeholder="First name" value={name}  onChange={namechange}>
       </input>
-      <label htmlFor=""> <b>Crush name:</b>Crush name: </label>
+      <label htmlFor=""> <b>Crush name:</b></label>
       
       <input type="text" className="m-3 box" placeholder="first name" value={crush} onChange={crushchange}>
       </input>
