@@ -51,6 +51,12 @@ export default function Love(props) {
 {/* <h2 id='result'>{crush} loves {name} {randomm} % </h2> */}
  <h2 id='result'>{result}</h2> 
 
+
+
+<br />
+<br />
+<br />
+<p>create by Keshav and nitin</p>
 </div>
     
     )
